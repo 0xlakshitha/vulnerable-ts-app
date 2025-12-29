@@ -136,5 +136,5 @@ async function executeQuery(query: string): Promise<void> {
 }
 
 app.listen(PORT, () => {
-  console.log(`Vulnerable TypeScript server running on port ${PORT}`);
+  console.log(`Vulnerable TypeScript server running on port -- ${PORT}`);
 });
